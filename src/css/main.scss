@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inconsolata', monospace;
+  background-color: #1B2021;
+  color: #BBE5ED;
+}
+
+.terminal {
+  height: 100%;
+  width: 100%;
+
+  p.command::before {
+    content: 'root@oml33t:~$ ';
+    font-weight: 600;
+    color: #A1C349;
+  }
+}
