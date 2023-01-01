@@ -11,6 +11,6 @@
   "license": "GPL-3.0-only",
   "dependencies": {},
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
